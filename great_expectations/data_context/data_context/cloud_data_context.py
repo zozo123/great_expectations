@@ -70,7 +70,6 @@ if TYPE_CHECKING:
     from great_expectations.checkpoint.checkpoint import Checkpoint, CheckpointResult
     from great_expectations.core.suite_parameters import SuiteParameterDict
     from great_expectations.data_context.store.store import StoreConfigTypedDict
-    from great_expectations.datasource.fluent import Datasource as FluentDatasource
     from great_expectations.render.renderer.site_builder import SiteBuilder
 
 logger = logging.getLogger(__name__)
